@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Validação de Formulario</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="body-content">
+            <section class="subject">
+                <h2 class="text title">
+                    FICOU COM DÚVIDA? <br>
+                    NOS MANDE UMA MENSAGEM!
+                </h2>
+                <p class="text">
+                    caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.
+                </p>
+            </section>
+            <section class="form-validation">
+                <form action="#" id="form-data">
+
+                    <label for="name" class="all-items">
+                        <input type="text" name="name" id="name" class="item" placeholder="Nome completo *">
+                        <p class="text">Campo Obrigatório</p>
+                    </label>
+
+                    <label for="email" class="all-items items">
+                        <input type="text" name="email" id="email" class="item" placeholder="Email *">
+                        <p class="text">Campo Obrigatório</p>
+                    </label>
+
+                    <label for="telephone" class="all-items items">
+                        <input type="text" name="telephone" id="telephone" class="item" placeholder="Telefone *">
+                        <p class="text">Campo Obrigatório</p>
+                    </label>
+
+                    <label for="mensage" class="all-items items">
+                        <textarea name="mensage" id="mensage" class="item text-area" placeholder="Mensagem *"></textarea>
+                        <p class="text">Campo Obrigatório</p>
+                    </label>
+
+                    <p class="p-text all-items">*campos obrigatorios</p>
+                    <button type="submit" class="item btn-submit">Enviar</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

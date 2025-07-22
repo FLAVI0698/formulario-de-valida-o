@@ -1,0 +1,106 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 210, 210);
+}
+
+.container {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 50px;
+
+    background-image: url("../assets/cor.jpg");
+    background-size: contain;
+    opacity: 0.6;
+}
+
+.text {
+    font-size: 15px;
+    color: #fff;
+}
+
+.body-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    .subject {
+        max-width: 300px;
+
+        .title {
+            font-weight: 900;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.body-content .form-validation {
+    width: 340px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 1px;
+
+    .all-items{
+        display: block;
+    }
+    
+    .all-items:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .text {
+        color: transparent;
+        display: block;
+        font-size: 8px;
+    }
+
+
+    .item {
+        width: 100%;
+        padding: 8px;
+        font-weight: 700;
+        border: 1px solid;
+        border-radius: 5px;
+
+    }
+
+    .text-area {
+        height: 100px;
+    }
+
+    .p-text {
+        color: #000;
+    }
+
+    .btn-submit {
+        background-color: #3CCC87;
+        color: #fff;
+        padding: 12px;
+        cursor: pointer;
+    }
+}
+
+.body-content .form-validation .btn-submit:hover {
+    background: #036a38;
+}
+
+/* CAMPOS INVALIDOS */
+.all-items.invalid-field {
+    .item {
+        border: 1px solid red;
+    }
+    .text {
+        color: red;
+    }
+}
+
+/* CAMPOS CHECKED */
+.all-items.checked {
+    .item {
+        border: 1px solid #00C22B;
+    }
+}
