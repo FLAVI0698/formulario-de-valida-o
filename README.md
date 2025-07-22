@@ -8,10 +8,10 @@ Esse projeto vai fazer a validação dos campos de um formulário, para quaando 
 ![start](./src/assets/normal-form.png)
 
 ### Campos vazios:
-![Login](./src/assets/empty-form.png)
+![Campos Vazio](./src/assets/empty-form.png)
 
 ### Campos preenchidos:
-![Preenchidos](.src/assets/checked-form.png)
+![Campos Preenchidos](./src/assets/checked-form.png)
 
 ## 🚀 Tecnologias
 
